@@ -30,4 +30,29 @@
 1. Clona este repositorio:
    ```bash
    git clone https://github.com/usuario/PatientsApp.git
-```
+   ```
+   
+2. Navega al directorio del proyecto:
+   ```bash
+   cd PatientsApp
+   ```
+   
+3. Restaura los paquetes NuGet:
+   ```bash
+   dotnet restore
+   ```
+   
+4. Aplica las migraciones a la base de datos:
+   ```bash
+   dotnet ef database update
+   ```
+   
+5. Ejecuta la aplicación:
+   ```bash
+   dotnet run
+   ```
+
+## Licencia
+
+Este proyecto está bajo la licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles.
+
